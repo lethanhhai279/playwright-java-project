@@ -1,0 +1,3 @@
+com\example\playwright\tests\GoogleTest.class
+com\example\playwright\tools\InstallBrowsers.class
+com\example\playwright\tests\FirstTest.class
