@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T10:28:01 ICT" name="Surefire suite" finished-at="2025-07-09T10:28:13 ICT" duration-ms="12648">
+  <suite started-at="2025-08-27T11:16:39 ICT" name="Surefire suite" finished-at="2025-08-27T11:16:53 ICT" duration-ms="14292">
     <groups>
     </groups>
-    <test started-at="2025-07-09T10:28:01 ICT" name="Surefire test" finished-at="2025-07-09T10:28:13 ICT" duration-ms="12648">
-      <class name="com.example.playwright.tests.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.playwright.tests.GoogleTest@7d3a22a9]" started-at="2025-07-09T10:28:01 ICT" name="setUp" finished-at="2025-07-09T10:28:09 ICT" duration-ms="8020" status="PASS">
+    <test started-at="2025-08-27T11:16:39 ICT" name="Surefire test" finished-at="2025-08-27T11:16:53 ICT" duration-ms="14292">
+      <class name="com.example.playwright.tests.openSourceDemo.LTH_1_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:39 ICT" name="setUp" finished-at="2025-08-27T11:16:48 ICT" duration-ms="9372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGoogleSearch()[pri:0, instance:com.example.playwright.tests.GoogleTest@7d3a22a9]" started-at="2025-07-09T10:28:09 ICT" name="testGoogleSearch" finished-at="2025-07-09T10:28:13 ICT" duration-ms="4336" status="PASS">
+        <test-method signature="verifyLoginPageSuccessfully_2()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:49 ICT" name="verifyLoginPageSuccessfully_2" description="Login test with screenshot and logs" finished-at="2025-08-27T11:16:53 ICT" duration-ms="4475" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.playwright.tests.GoogleTest@7d3a22a9]" started-at="2025-07-09T10:28:13 ICT" name="tearDown" finished-at="2025-07-09T10:28:13 ICT" duration-ms="264" status="PASS">
+        </test-method> <!-- verifyLoginPageSuccessfully_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:53 ICT" name="tearDown" finished-at="2025-08-27T11:16:53 ICT" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.example.playwright.tests.GoogleTest -->
+      </class> <!-- com.example.playwright.tests.openSourceDemo.LTH_1_Test -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

@@ -4,5 +4,5 @@ C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\jav
 C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\config\GlobalConfig.java
 C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\drivers\DriverManager.java
 C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\enums\BrowserEnum.java
-C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\base\BaseTest.java
 C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\enums\EnvType.java
+C:\Users\lthai2\playwright-java-framework\playwright-java-framework\src\main\java\com\example\playwright\core\utils\PlaywrightActions.java
