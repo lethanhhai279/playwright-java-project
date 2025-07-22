@@ -1,6 +1,7 @@
 package com.example.playwright.tests;
 import org.testng.annotations.Test;
-import com.example.playwright.core.base.BaseTest;
+
+import com.example.playwright.base.BaseTest;
 import com.microsoft.playwright.*;
 
 public class PracticeTest extends BaseTest{

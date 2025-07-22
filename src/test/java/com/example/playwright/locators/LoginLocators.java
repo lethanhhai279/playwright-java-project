@@ -8,4 +8,9 @@ public class LoginLocators {
     public String inputPassword(){
         return "//input[@name='password']";
     }
+
+    public String loginButton(){
+        return "//button[@type='submit']";
+    }
+    
 }
