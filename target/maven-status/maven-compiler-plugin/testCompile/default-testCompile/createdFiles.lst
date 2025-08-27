@@ -1,3 +1,15 @@
-com\example\playwright\tests\GoogleTest.class
+com\example\playwright\base\BaseTest.class
+com\example\playwright\pages\LoginPage.class
+com\example\playwright\pages\PerformancePage.class
+com\example\playwright\tests\openSourceDemo\LTH_1_Test.class
+com\example\playwright\pages\TimePage.class
+com\example\playwright\pages\LeavePage.class
+com\example\playwright\pages\PIMPage.class
+com\example\playwright\pages\RecruitmentPage.class
+com\example\playwright\tests\PracticeTest.class
+com\example\playwright\pages\DashboardPage.class
+com\example\playwright\pages\AdminPage.class
+com\example\playwright\pages\MyInfoPage.class
+com\example\playwright\locators\LoginLocators.class
 com\example\playwright\tools\InstallBrowsers.class
 com\example\playwright\tests\FirstTest.class
