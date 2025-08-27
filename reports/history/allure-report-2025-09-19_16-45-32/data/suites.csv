@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 19 16:45:15 ICT 2025","Fri Sep 19 16:45:19 ICT 2025","4150","Surefire suite","Surefire test","com.example.playwright.tests.openSourceDemo.LTH_1_Test","com.example.playwright.tests.openSourceDemo.LTH_1_Test","verifyLoginPageSuccessfully","Login test with screenshot and logs","📸 Windows Screenshot was taken - [target\screenshots\screenshot-1758275118997.png]"

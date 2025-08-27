@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 19 12:40:17 ICT 2025","Fri Sep 19 12:40:17 ICT 2025","5","Surefire suite","Surefire test","com.example.playwright.tests.openSourceDemo.LTH_1_Test","com.example.playwright.tests.openSourceDemo.LTH_1_Test","verifyLoginPageSuccessfully","Login test with screenshot and logs","Verify login functionality"

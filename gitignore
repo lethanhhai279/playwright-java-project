@@ -1,0 +1,9 @@
+results/*
+ReadME.md
+runner.bat
+results/
+target/
+test-output/
+.allure/
+allure-results/
+. vscode/
