@@ -20,11 +20,12 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
+        //Check 
         DriverManager.initDriver();
         page = DriverManager.getPage();
-        String url = ConfigFactory.getConfig().getProperty("baseUrl");
-        Allure.step(String.format("Navigate to %s login page", url));
-        page.navigate(url);
+        // String url = ConfigFactory.getConfig().getProperty("baseUrl");
+        // Allure.step(String.format("Navigate to %s login page", url));
+        // page.navigate(url);
         WebUI = new PlaywrightActions(page);
         LoginPage = new LoginPage(WebUI);
 
