@@ -2,6 +2,7 @@ package com.example.playwright.pages;
 
 import com.example.playwright.core.config.ConfigFactory;
 import com.example.playwright.core.utils.PlaywrightActions;
+import com.example.playwright.core.utils.Utils;
 import com.example.playwright.locators.LoginLocators;
 
 import io.qameta.allure.Allure;
@@ -26,11 +27,10 @@ public class LoginPage {
             WebUI.takeFullPageScreenshot("Check signIn");
             Allure.step("Enter username and password");
             WebUI.click(LoginLocator.loginButton());
+            WebUI.delay(2);
             Allure.step("Verify login success");
+            Utils.takeWindowsScreenshot();
             
-            WebUI.takeFullPageScreenshot("Check signIn");
-            
-
         } catch(Exception e){
             Allure.step(String.format("Verify login failed! with %s", e));
         }

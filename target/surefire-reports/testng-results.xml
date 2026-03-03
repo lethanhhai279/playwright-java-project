@@ -2,23 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T11:16:39 ICT" name="Surefire suite" finished-at="2025-08-27T11:16:53 ICT" duration-ms="14292">
+  <suite started-at="2025-09-19T16:45:07 ICT" name="Surefire suite" finished-at="2025-09-19T16:45:19 ICT" duration-ms="12815">
     <groups>
     </groups>
-    <test started-at="2025-08-27T11:16:39 ICT" name="Surefire test" finished-at="2025-08-27T11:16:53 ICT" duration-ms="14292">
+    <test started-at="2025-09-19T16:45:07 ICT" name="Surefire test" finished-at="2025-09-19T16:45:19 ICT" duration-ms="12815">
       <class name="com.example.playwright.tests.openSourceDemo.LTH_1_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:39 ICT" name="setUp" finished-at="2025-08-27T11:16:48 ICT" duration-ms="9372" status="PASS">
+        <test-method is-config="true" signature="cleanAndPrepareReport()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@201a4587]" started-at="2025-09-19T16:45:07 ICT" name="cleanAndPrepareReport" finished-at="2025-09-19T16:45:07 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanAndPrepareReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@201a4587]" started-at="2025-09-19T16:45:07 ICT" name="setUp" finished-at="2025-09-19T16:45:15 ICT" duration-ms="8080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageSuccessfully_2()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:49 ICT" name="verifyLoginPageSuccessfully_2" description="Login test with screenshot and logs" finished-at="2025-08-27T11:16:53 ICT" duration-ms="4475" status="PASS">
+        <test-method signature="verifyLoginPageSuccessfully()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@201a4587]" started-at="2025-09-19T16:45:15 ICT" name="verifyLoginPageSuccessfully" description="Login test with screenshot and logs" finished-at="2025-09-19T16:45:19 ICT" duration-ms="4181" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageSuccessfully_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@52af26ee]" started-at="2025-08-27T11:16:53 ICT" name="tearDown" finished-at="2025-08-27T11:16:53 ICT" duration-ms="349" status="PASS">
+        </test-method> <!-- verifyLoginPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@201a4587]" started-at="2025-09-19T16:45:19 ICT" name="tearDown" finished-at="2025-09-19T16:45:19 ICT" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.example.playwright.tests.openSourceDemo.LTH_1_Test@201a4587]" started-at="2025-09-19T16:45:19 ICT" name="generateReport" finished-at="2025-09-19T16:45:32 ICT" duration-ms="12992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
       </class> <!-- com.example.playwright.tests.openSourceDemo.LTH_1_Test -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

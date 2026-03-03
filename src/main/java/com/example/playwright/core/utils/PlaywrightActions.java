@@ -298,4 +298,8 @@ public class PlaywrightActions {
             e.printStackTrace();
         }
     }
+
+    public void delay(int timeout){
+        page.waitForTimeout(timeout * 1000);
+    }
 }

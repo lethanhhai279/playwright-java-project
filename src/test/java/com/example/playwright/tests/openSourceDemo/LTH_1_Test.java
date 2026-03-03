@@ -13,7 +13,6 @@ public class LTH_1_Test extends BaseTest{
     @Epic("Login Feature")
     @Feature("Login Page")
     void verifyLoginPageSuccessfully(){
-        LoginPage.signIn();
+        loginPage.signIn();
     }
-
 }
